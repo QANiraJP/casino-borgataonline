@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5155121700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to register page successfully",
+        "description": "",
+        "id": "homepage-test;user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 664121999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110217200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomepageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9934344700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Register button",
+            "match": {
+              "location": "HomepageSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27072800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify continue button",
+            "match": {
+              "location": "HomepageSteps.verifyContinueButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Test",
+    "description": "As a user I want to navigate to register page successfully",
+    "id": "homepage-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
